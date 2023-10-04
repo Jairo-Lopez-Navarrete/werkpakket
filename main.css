@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*@mixin font($primary-font, $secondary-font){
+  font-weight: bolder
+
+}*/
+article .card-image, article .card-overlay {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #181818;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  box-shadow: 0 5px 10px 0 rgba(31, 31, 31, 0.75);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(82, 1, 1, 0.91);
+  border-radius: 0;
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 0;
+}
+.navbar h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+.navbar .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.navbar .list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+.navbar .list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "noto sans", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .logo {
+  background-color: #181818;
+  padding: 0.7rem;
+  margin: 0 0.5rem 0 0;
+  border-radius: 10rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.navbar .logo:hover {
+  transition: 0.3s linear;
+  background-color: rgba(148, 147, 150, 0.8);
+  color: rgb(82, 1, 1);
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  padding: 13.5rem 6.7rem;
+  background-image: url("assets/img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .text-background {
+  background-color: #181818;
+  opacity: 70%;
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 40;
+}
+main h2, main p {
+  color: #fff;
+  font-family: "noto sans", sans-serif;
+  font-weight: bolder;
+  margin: 1.5rem 0;
+  z-index: 39;
+}
+main h2 {
+  font-family: "Bookman Old Style", serif;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
+}
+main p {
+  font-family: "noto sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.reclame {
+  margin: 1rem;
+  border-radius: 1.5rem;
+  background-image: url("assets/img_2.png");
+  background-repeat: no-repeat;
+  width: 60rem;
+  background-size: cover;
+  padding: 10rem 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 10px 10px 0 rgba(12, 12, 12, 0.93);
+}
+.reclame .background-div {
+  background-color: #181818;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  position: relative;
+  right: 2rem;
+  top: 5rem;
+  flex-direction: column;
+  box-shadow: 0 10px 10px 0 rgba(12, 12, 12, 0.93);
+}
+.reclame h2 {
+  color: #fff;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+article .gallery {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 20rem;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+article .card:hover .card-overlay {
+  left: 0;
+}
+article .card-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: rgba(24, 24, 24, 0.5);
+  color: #fff;
+  z-index: 1;
+  flex-direction: column;
+  transition: left 0.7s;
+}
+article .card-overlay-heading {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Bookman Old Style", serif;
+  font-size: 2rem;
+  text-align: center;
+}
+article .card-overlay-paragraph {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "noto sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+article .card-overlay-button {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background-color: #181818;
+  font-family: "noto sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 1.5rem;
+  outline: none;
+  cursor: pointer;
+}
+article .card-overlay-button:hover {
+  transition: linear 0.3s;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: rgb(82, 1, 1);
+}
+article .card-image {
+  height: 30rem;
+  width: auto;
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #181818;
+  padding: 5rem 1rem;
+  width: 100%;
+}
+footer a {
+  margin: 0.5rem;
+  text-decoration: none;
+  font-family: "noto sans", sans-serif;
+  font-size: 1.7rem;
+  color: rgba(148, 147, 150, 0.8);
+}
+footer a:hover {
+  color: #fff;
+}
+footer i {
+  margin: 0 0.3rem;
+  font-size: 1.7rem;
+}
+
+/*# sourceMappingURL=main.css.map */

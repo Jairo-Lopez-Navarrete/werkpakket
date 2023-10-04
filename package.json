@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.68.0"
+  },
+  "name": "werkpakket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prod": "sass scss/bronbestand.scss:css/gecompileerd-bestand.css",
+    "dev": "sass --watch scss/bronbestand.scss:css/gecompileerd-bestand.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

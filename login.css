@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*@mixin font($primary-font, $secondary-font){
+  font-weight: bolder
+
+}*/
+body {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url("assets/img_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .arrow-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+body .arrow {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #181818;
+}
+body .arrow i {
+  font-size: 1.7rem;
+}
+body .arrow:hover {
+  background-color: #D62839;
+  color: #fff;
+}
+body .background-info {
+  margin: 2.5rem 4rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  width: 40rem;
+  height: 40rem;
+  background: rgba(214, 40, 57, 0.22);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(214, 40, 57, 0.34);
+}
+body .background-info h1 {
+  color: #fff;
+  font-weight: 700;
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: normal;
+  text-align: center;
+  font-family: "Bookman Old Style", serif;
+}
+body .background-info form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .background-info input {
+  margin: 1rem;
+  font-size: 1.3rem;
+  border-radius: 3rem;
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  padding: 0.5rem;
+  box-shadow: 0 5px 10px 0 rgba(82, 1, 1, 0.88);
+}
+body .background-info .list {
+  list-style-type: none;
+}
+body .background-info .list-item-link {
+  color: #fff;
+  opacity: 100%;
+  font-family: "noto sans", sans-serif;
+  font-size: 1.5rem;
+}
+body .background-info .list-item-link:hover {
+  color: #fff;
+  opacity: 60%;
+}
+
+/*# sourceMappingURL=login.css.map */
