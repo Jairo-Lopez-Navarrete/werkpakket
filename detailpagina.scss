@@ -35,3 +35,69 @@ $shadow-1: rgba(12, 12, 12, 0.93);
   text-transform: $transform;
   text-align: center;
 }
+
+
+.navbar {
+  box-shadow: 0 5px 10px 0 rgba(31, 31, 31, 0.75);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  @include layout(space-between);
+  padding: 2rem;
+  background-color: $tertiary-color-less;
+  border-radius: 0;
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 0;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: $white;
+  }
+
+  .list {
+    @include layout();
+    flex-direction: row;
+  }
+
+  .list-item {
+    @include layout();
+    margin: 0 2rem;
+  }
+
+  .list-link {
+    @include layout();
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+    color: $white;
+    text-decoration: none;
+  }
+  .logo{
+    background-color: $primary-color;
+    padding: 0.7rem;
+    margin: 0 0.5rem 0 0;
+    border-radius: 10rem;
+    color: $white;
+    font-size: 2rem;
+    &:hover{
+
+      transition: 0.3s linear;
+      background-color: $secondary-color;
+      color: $tertiary-color;
+    }
+  }
+}
+header{
+  @include layout(flex-start);
+  .picture{
+    &-section{
+
+    }
+    &-item{
+      @include layout();
+      flex-direction: column;
+      margin-top: 15rem;
+    }
+  }
+}
