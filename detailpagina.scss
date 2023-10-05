@@ -50,16 +50,19 @@ $shadow-1: rgba(12, 12, 12, 0.93);
   -webkit-backdrop-filter: blur(8.5px);
   border: 0;
 
-  h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: $white;
-  }
-
   .list {
     @include layout();
     flex-direction: row;
   }
+
+  .main{
+    font-family: $primary-font;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: $white;
+    text-decoration: none;
+  }
+
 
   .list-item {
     @include layout();
@@ -118,6 +121,22 @@ header{
     &-item{
       @include layout();
       flex-direction: column;
+    }
+  }
+}
+
+main{
+  @include layout(flex-start);
+  flex-direction: column;
+  padding: 3rem;
+  .main-layout{
+    flex-direction: column;
+    h2{
+      font-family: $primary-font;
+    }
+    li{
+      list-style-type: disc;
+      margin-top: 1rem;
     }
   }
 }

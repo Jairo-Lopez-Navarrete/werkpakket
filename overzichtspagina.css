@@ -29,6 +29,7 @@ article .card-image, article .card-overlay {
   border: 0;
 }
 .navbar .main {
+  font-family: "Bookman Old Style", serif;
   font-size: 2.5rem;
   font-weight: bolder;
   color: #fff;
