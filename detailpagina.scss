@@ -107,6 +107,9 @@ header{
         width: 5rem;
         height: auto;
         &:hover{
+          transition: ease-in-out 0.3s;
+          width: 5.5rem;
+          height: auto;
           opacity: 70%;
         }
       }

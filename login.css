@@ -83,13 +83,22 @@ body .background-info input {
 body .background-info .list {
   list-style-type: none;
 }
-body .background-info .list-item-link {
-  color: #fff;
+body .background-info .list-item {
   opacity: 100%;
   font-family: "noto sans", sans-serif;
   font-size: 1.5rem;
+  margin: 0.5rem 0;
 }
-body .background-info .list-item-link:hover {
+body .background-info .list-item .login {
+  text-decoration: none;
+}
+body .background-info .list-item .registreer {
+  text-decoration: none;
+}
+body .background-info .list-item-link {
+  color: #fff;
+}
+body .background-info .list-item:hover {
   color: #fff;
   opacity: 60%;
 }
