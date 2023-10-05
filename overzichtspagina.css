@@ -200,4 +200,50 @@ article .card-image {
   padding: 0.5rem;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 5rem 3rem;
+  width: 100%;
+  background-color: #181818;
+}
+footer .div1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer .openingsuren {
+  margin-bottom: 1rem;
+}
+footer p {
+  margin: 0.5rem;
+  font-family: "noto sans", sans-serif;
+  color: rgba(148, 147, 150, 0.8);
+  font-size: 1.5rem;
+}
+footer li {
+  margin: 0.5rem;
+  list-style-type: none;
+  font-family: "noto sans", sans-serif;
+  color: rgba(148, 147, 150, 0.8);
+  font-size: 1.3rem;
+}
+footer a {
+  margin: 0.5rem;
+  text-decoration: none;
+  font-family: "noto sans", sans-serif;
+  font-size: 1.3rem;
+  color: rgba(148, 147, 150, 0.8);
+}
+footer a:hover {
+  color: #fff;
+}
+footer i {
+  margin: 0 0.3rem;
+  font-size: 1.3rem;
+}
+
 /*# sourceMappingURL=overzichtspagina.css.map */

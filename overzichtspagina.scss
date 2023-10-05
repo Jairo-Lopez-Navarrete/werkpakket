@@ -227,3 +227,50 @@ article{
     }
   }
 }
+
+footer{
+  @include layout(space-between, flex-start);
+  flex-direction: row;
+  padding: 5rem 3rem;
+  width: 100%;
+  background-color: $primary-color;
+  .div1{
+    @include layout(center, flex-start);
+    flex-direction: column;
+  }
+
+  .openingsuren{
+    margin-bottom: 1rem;
+  }
+
+  p{
+    margin: 0.5rem;
+    font-family: $secondary-font;
+    color: $secondary-color;
+    font-size: 1.5rem;
+  }
+
+  li{
+    margin: 0.5rem;
+    list-style-type: none;
+    font-family: $secondary-font;
+    color: $secondary-color;
+    font-size: 1.3rem;
+  }
+
+  a{
+    margin: 0.5rem;
+    text-decoration: none;
+    font-family: $secondary-font;
+    font-size: 1.3rem;
+    color: $secondary-color;
+    &:hover{
+      color: $white;
+    }
+  }
+
+  i{
+    margin: 0 0.3rem;
+    font-size: 1.3rem;
+  }
+}
