@@ -17,27 +17,30 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-body .arrow-div {
+
+.arrow-div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 5rem;
   margin-top: 5rem;
 }
-body .arrow {
+
+.arrow {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #fff;
   color: #181818;
 }
-body .arrow i {
+.arrow i {
   font-size: 1.7rem;
 }
-body .arrow:hover {
+.arrow:hover {
   background-color: #D62839;
   color: #fff;
 }
-body .background-info {
+
+.background-info {
   margin: 2.5rem 4rem;
   border-radius: 1.5rem;
   display: flex;
@@ -53,7 +56,7 @@ body .background-info {
   -webkit-backdrop-filter: blur(5.9px);
   border: 1px solid rgba(214, 40, 57, 0.34);
 }
-body .background-info h1 {
+.background-info h1 {
   color: #fff;
   font-weight: 700;
   margin: 1rem;
@@ -64,13 +67,13 @@ body .background-info h1 {
   text-align: center;
   font-family: "Bookman Old Style", serif;
 }
-body .background-info form {
+.background-info form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-body .background-info input {
+.background-info input {
   margin: 1rem;
   font-size: 1.3rem;
   border-radius: 3rem;
@@ -80,25 +83,25 @@ body .background-info input {
   padding: 0.5rem;
   box-shadow: 0 5px 10px 0 rgba(82, 1, 1, 0.88);
 }
-body .background-info .list {
+.background-info .list {
   list-style-type: none;
 }
-body .background-info .list-item {
+.background-info .list-item {
   opacity: 100%;
   font-family: "noto sans", sans-serif;
   font-size: 1.5rem;
   margin: 0.5rem 0;
 }
-body .background-info .list-item .login {
+.background-info .list-item .login {
   text-decoration: none;
 }
-body .background-info .list-item .registreer {
+.background-info .list-item .registreer {
   text-decoration: none;
 }
-body .background-info .list-item-link {
+.background-info .list-item-link {
   color: #fff;
 }
-body .background-info .list-item:hover {
+.background-info .list-item:hover {
   color: #fff;
   opacity: 60%;
 }
