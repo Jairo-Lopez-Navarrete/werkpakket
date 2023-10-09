@@ -14,7 +14,7 @@ article .card-overlay, article .card-image {
   height: 100%;
 }
 
-main {
+header {
   display: flex;
   justify-content: space-around;
   align-items: start;
@@ -24,26 +24,26 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main .text-background {
+header .text-background {
   background-color: #181818;
   opacity: 70%;
   padding: 1rem;
   border-radius: 1rem;
   z-index: 40;
 }
-main h2, main p {
+header h2, header p {
   color: #fff;
   font-family: "noto sans", sans-serif;
   font-weight: bolder;
   margin: 1.5rem 0;
   z-index: 39;
 }
-main h2 {
+header h2 {
   font-family: "Bookman Old Style", serif;
   font-weight: bolder;
   word-spacing: 0.3rem;
 }
-main p {
+header p {
   font-family: "noto sans", sans-serif;
   font-size: 1.5rem;
   font-weight: normal;

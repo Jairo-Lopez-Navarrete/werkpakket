@@ -1,7 +1,7 @@
 @use "base" as *;
 
 
-main{
+header{
   @include layout(space-around, start);
   flex-direction: column;
   padding: 13.5rem 6.7rem;
