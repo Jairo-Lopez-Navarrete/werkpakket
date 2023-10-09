@@ -153,17 +153,20 @@ main {
   align-items: center;
   flex-direction: column;
   padding: 3rem;
+  background-color: #181818;
 }
 main .main-layout {
   flex-direction: column;
 }
 main .main-layout h2 {
+  color: #fff;
   font-family: "Bookman Old Style", serif;
 }
 main .main-layout li {
+  color: #fff;
   font-family: "noto sans", sans-serif;
-  list-style-type: disc;
-  margin-top: 1rem;
+  list-style-type: square;
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=detailpagina.css.map */

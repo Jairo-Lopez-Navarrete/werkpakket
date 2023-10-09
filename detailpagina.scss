@@ -179,18 +179,21 @@ main {
   @include layout(flex-start);
   flex-direction: column;
   padding: 3rem;
+  background-color: $primary-color;
 
   .main-layout {
     flex-direction: column;
 
     h2 {
+      color: $white;
       font-family: $primary-font;
     }
 
     li {
+      color: $white;
       font-family: $secondary-font;
-      list-style-type: disc;
-      margin-top: 1rem;
+      list-style-type: square;
+      margin-top: 1.5rem;
     }
   }
 }
