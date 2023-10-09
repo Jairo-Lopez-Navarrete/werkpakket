@@ -262,10 +262,9 @@ footer i {
 }
 .background-info h1 {
   color: #fff;
-  font-weight: 700;
   margin: 1rem;
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 2px;
   text-transform: normal;
   text-align: center;
@@ -289,18 +288,26 @@ footer i {
 }
 .background-info .list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .background-info .list-item {
   opacity: 100%;
   font-family: "noto sans", sans-serif;
   font-size: 1.5rem;
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
 }
 .background-info .list-item .login {
   text-decoration: none;
 }
 .background-info .list-item .registreer {
   text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 2rem;
+  padding: 1rem;
 }
 .background-info .list-item-link {
   color: #fff;
@@ -409,6 +416,7 @@ main .main-layout h2 {
 }
 main .main-layout li {
   color: #fff;
+  font-size: 1.1rem;
   font-family: "noto sans", sans-serif;
   list-style-type: square;
   margin-top: 1.5rem;
@@ -450,7 +458,7 @@ main .main-layout li {
   box-shadow: 0 10px 10px 5px rgba(63, 63, 63, 0.76);
   padding: 2rem;
   display: inline-block;
-  margin: 9rem 0;
+  margin: 9rem 0 2rem 0;
   flex-wrap: wrap;
   border-radius: 0 1rem 1rem 0;
 }

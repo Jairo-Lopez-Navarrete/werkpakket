@@ -5,8 +5,6 @@
 @use "scss/_footer.scss" as *;
 @use "scss/_reclame.scss" as *;
 
-
-
 body{
   color: $primary-color;
   @include layout(flex-start);

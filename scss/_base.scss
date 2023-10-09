@@ -31,8 +31,8 @@ $shadow-2: rgba(31, 31, 31, 0.75);
   align-items: $align;
 }
 
-@mixin textStyles($transform: uppercase) {
-  font-weight: 300;
+@mixin textStyles($transform: uppercase, $weight: 300) {
+  font-weight: $weight;
   letter-spacing: 2px;
   text-transform: $transform;
   text-align: center;
