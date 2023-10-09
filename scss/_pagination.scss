@@ -1,0 +1,30 @@
+@use "base" as *;
+
+.pagination {
+  @include layout();
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: $primary-color;
+  color: $white;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $tertiary-color;
+  }
+}
+
+.page-link.active {
+  color: $black;
+  font-weight: 700;
+  background-color: $secondary-color;
+}

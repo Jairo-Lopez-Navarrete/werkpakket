@@ -1,5 +1,6 @@
 @use "scss/global.scss";
 @use "scss/_base.scss" as *;
+@use 'scss/_button_arrow.scss' as *;
 
 
 body {
@@ -10,25 +11,4 @@ body {
   background-repeat: no-repeat;
 }
 
-.arrow-div {
-  @include layout();
-  margin-left: 5rem;
-  margin-top: 5rem;
-}
-
-.arrow {
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color: $white;
-  color: $primary-color;
-
-  i {
-    font-size: 1.7rem;
-  }
-
-  &:hover {
-    background-color: $tertiary-color;
-    color: $white;
-  }
-}
 

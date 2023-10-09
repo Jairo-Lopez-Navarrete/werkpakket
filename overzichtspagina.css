@@ -251,4 +251,34 @@ footer i {
   font-size: 1rem;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #181818;
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+.page-link:hover {
+  background-color: rgb(82, 1, 1);
+}
+
+.page-link.active {
+  color: #000;
+  font-weight: 700;
+  background-color: rgba(148, 147, 150, 0.8);
+}
+
 /*# sourceMappingURL=overzichtspagina.css.map */
