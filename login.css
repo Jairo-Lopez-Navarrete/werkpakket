@@ -414,6 +414,9 @@ main .main-layout h2 {
   color: #fff;
   font-family: "Bookman Old Style", serif;
 }
+main .main-layout ul {
+  padding: 2rem;
+}
 main .main-layout li {
   color: #fff;
   font-size: 1.1rem;
