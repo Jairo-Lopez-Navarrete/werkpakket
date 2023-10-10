@@ -4,9 +4,9 @@
 @use "scss/_card.scss" as *;
 @use "scss/_footer.scss" as *;
 @use "scss/_reclame.scss" as *;
-
-body{
-  color: $primary-color;
-  @include layout(flex-start);
-  flex-direction: column;
-}
+@use 'scss/_login_components.scss' as *;
+@use 'scss/main_detailpagina' as *;
+@use 'scss/_reclame.scss' as *;
+@use 'scss/_filter.scss' as *;
+@use 'scss/_button_arrow.scss' as *;
+@use 'scss/_pagination.scss' as *;

@@ -1,5 +1,13 @@
 @use "base.scss" as *;
 
+.body_elements{
+  background-color: $primary-color;
+  @include layout(space-between, flex-start);
+  background-image: url("assets/img_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .background-info {
   margin: 2.5rem 4rem;
   border-radius: 1.5rem;

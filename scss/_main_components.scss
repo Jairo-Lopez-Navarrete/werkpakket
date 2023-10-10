@@ -1,16 +1,25 @@
 @use "base" as *;
 
+body{
+  color: $primary-color;
+  @include layout();
+  flex-direction: column;
+}
 
-header{
+.main_header{
   @include layout(space-around, start);
   flex-direction: column;
+  width: 100%;
   padding: 13.5rem 6.7rem;
 
   background-image: url("assets/img.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   .text-background{
+    @include layout();
+    flex-direction: column;
     background-color: #181818;
     opacity: 70%;
     padding: 1rem;
@@ -34,5 +43,6 @@ header{
     font-family: $secondary-font;
     font-size: 1.5rem;
     font-weight: normal;
+    width: 50rem;
   }
 }

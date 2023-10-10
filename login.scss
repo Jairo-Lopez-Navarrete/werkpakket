@@ -1,9 +1,18 @@
-@use "scss/global.scss";
+@use "scss/main_components" as *;
+@use "scss/_nav.scss" as *;
 @use "scss/_base.scss" as *;
+@use "scss/_card.scss" as *;
+@use "scss/_footer.scss" as *;
+@use "scss/_reclame.scss" as *;
+@use 'scss/_login_components.scss' as *;
+@use 'scss/main_detailpagina' as *;
+@use 'scss/_reclame.scss' as *;
+@use 'scss/_filter.scss' as *;
 @use 'scss/_button_arrow.scss' as *;
+@use 'scss/_pagination.scss' as *;
 
 
-body {
+.body_elements{
   background-color: $primary-color;
   @include layout(space-between, flex-start);
   background-image: url("assets/img_1.png");
