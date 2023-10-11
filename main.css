@@ -9,6 +9,11 @@
   font-weight: bolder
 
 }*/
+article .card-overlay, article .card-image {
+  width: 100%;
+  height: 100%;
+}
+
 .body_elements {
   color: #181818;
   display: flex;
@@ -59,17 +64,6 @@
   width: 50rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 .navbar {
   box-shadow: 0 5px 10px 0 rgba(31, 31, 31, 0.75);
   z-index: 100;
@@ -133,33 +127,6 @@
   transition: 0.3s linear;
   background-color: rgba(148, 147, 150, 0.8);
   color: rgb(82, 1, 1);
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
-article .card-image, article .card-overlay {
-  width: 100%;
-  height: 100%;
 }
 
 article {
@@ -246,17 +213,6 @@ article .card-image {
   padding: 0.5rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 footer {
   margin-top: 3rem;
   display: flex;
@@ -304,17 +260,6 @@ footer i {
   font-size: 1.3rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 .reclame {
   margin: 3rem 2rem;
   border-radius: 1.5rem;
@@ -344,17 +289,6 @@ footer i {
   font-family: "Bookman Old Style", serif;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 .body_elements_login {
   background-color: #181818;
   display: flex;
@@ -438,17 +372,6 @@ footer i {
   opacity: 60%;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 header {
   margin: 0 0 5rem 0;
   display: flex;
@@ -558,17 +481,6 @@ main .main-layout li {
   margin-top: 1.5rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 .filter {
   width: 100%;
   z-index: 10;
@@ -610,17 +522,6 @@ main .main-layout li {
   font-size: 1rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 .arrow-div {
   display: flex;
   justify-content: center;
@@ -642,17 +543,6 @@ main .main-layout li {
   color: #fff;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
 .pagination {
   display: flex;
   justify-content: center;

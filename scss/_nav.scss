@@ -1,4 +1,4 @@
-@import "base";
+@use "_base.scss" as *;
 
 .navbar{
   box-shadow: 0 5px 10px 0 $shadow-2;

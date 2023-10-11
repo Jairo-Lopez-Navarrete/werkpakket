@@ -1,4 +1,4 @@
-@import "base.scss";
+@use "_base.scss" as *;
 
 .body_elements_login{
   background-color: $primary-color;
