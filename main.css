@@ -59,6 +59,11 @@ article .card-overlay, article .card-image {
   width: 50rem;
 }
 
+@media only screen and (max-device-width: 414px) {
+  .main_header {
+    height: 130rem;
+  }
+}
 .navbar {
   box-shadow: 0 5px 10px 0 rgba(31, 31, 31, 0.75);
   z-index: 100;
@@ -124,6 +129,15 @@ article .card-overlay, article .card-image {
   color: rgb(82, 1, 1);
 }
 
+@media only screen and (max-device-width: 414px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    flex-direction: column;
+  }
+}
 article {
   display: flex;
   flex-direction: row;
@@ -208,6 +222,15 @@ article .card-image {
   padding: 0.5rem;
 }
 
+@media only screen and (max-device-width: 414px) {
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+}
 footer {
   margin-top: 3rem;
   display: flex;
@@ -255,12 +278,27 @@ footer i {
   font-size: 1.3rem;
 }
 
-@media screen and (max-width: 820px) {
+@media only screen and (max-device-width: 414px) {
   footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+  }
+  footer .div1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+  footer .div1 a {
+    font-size: 1.5rem;
+  }
+  footer .div2 {
+    display: none;
+  }
+  footer .div3 {
+    display: none;
   }
 }
 .reclame {
@@ -292,6 +330,11 @@ footer i {
   font-family: "Bookman Old Style", serif;
 }
 
+@media only screen and (max-device-width: 414px) {
+  .reclame {
+    display: none;
+  }
+}
 .body_elements_login {
   background-color: #181818;
   display: flex;

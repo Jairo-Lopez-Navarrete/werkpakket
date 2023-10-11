@@ -29,3 +29,9 @@
     font-family: $primary-font
   }
 }
+
+@media only screen and (max-device-width: $iphone){
+  .reclame{
+    display: none;
+  }
+}

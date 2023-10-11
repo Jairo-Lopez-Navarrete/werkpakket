@@ -62,3 +62,11 @@
     }
   }
 }
+
+@media only screen and (max-device-width: $iphone){
+  .navbar{
+    @include layout();
+    margin: 0.5rem;
+    flex-direction: column;
+  }
+}

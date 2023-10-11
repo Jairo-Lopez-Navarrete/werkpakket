@@ -46,3 +46,9 @@
     width: 50rem;
   }
 }
+
+@media only screen and (max-device-width: $iphone){
+  .main_header{
+    height: 130rem;
+  }
+}

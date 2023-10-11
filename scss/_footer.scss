@@ -50,9 +50,22 @@ footer {
   }
 }
 
-@media screen and (max-width: $ipad){
+@media only screen and (max-device-width: $iphone){
   footer{
-    @include layout();
-    flex-direction: column;
+    @include layout(space-evenly);
+    flex-direction: row;
+    .div1{
+      @include layout(space-evenly);
+      flex-direction: row;
+      a{
+        font-size: 1.5rem;
+      }
+    }
+    .div2{
+      display: none;
+    }
+    .div3{
+      display: none;
+    }
   }
 }
