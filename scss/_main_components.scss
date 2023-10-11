@@ -1,6 +1,6 @@
-@use "base" as *;
+@import "_base.scss";
 
-body{
+.body_elements{
   color: $primary-color;
   @include layout();
   flex-direction: column;

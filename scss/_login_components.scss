@@ -1,8 +1,8 @@
-@use "base.scss" as *;
+@import "base.scss";
 
-.body_elements{
+.body_elements_login{
   background-color: $primary-color;
-  @include layout(space-between, flex-start);
+  @include layout(space-between, start);
   background-image: url("assets/img_1.png");
   background-size: cover;
   background-repeat: no-repeat;

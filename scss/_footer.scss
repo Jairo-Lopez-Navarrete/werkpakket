@@ -1,6 +1,7 @@
-@use "_base" as *;
+@import "_base.scss";
 
 footer{
+  margin-top: 3rem;
   @include layout(space-between, flex-start);
   flex-direction: row;
   padding: 5rem 3rem;

@@ -1,6 +1,7 @@
-@use "base" as *;
+@import "_base.scss";
 
 header {
+  margin: 0 0 5rem 0;
   p {
     margin-bottom: 2rem;
     font-family: $secondary-font;

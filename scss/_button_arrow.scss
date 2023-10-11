@@ -1,4 +1,4 @@
-@use '_base.scss' as *;
+@import "_base.scss";
 
 .arrow-div {
   @include layout();
