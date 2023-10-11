@@ -16,13 +16,6 @@ $black: #000;
 $shadow-1: rgba(12, 12, 12, 0.93);
 $shadow-2: rgba(31, 31, 31, 0.75);
 
-/*je mag ook alles maken per onderdeel dus bv nav.scss main.scss enz*/
-
-/*@mixin font($primary-font, $secondary-font){
-  font-weight: bolder
-
-}*/
-
 
 
 @mixin layout($justify: center, $align: center){
@@ -30,6 +23,12 @@ $shadow-2: rgba(31, 31, 31, 0.75);
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin position($title){
+  position: relative;
+  top: $title;
+}
+
 
 @mixin textStyles($transform: uppercase, $weight: 300) {
   font-weight: $weight;
