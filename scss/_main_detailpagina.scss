@@ -111,3 +111,12 @@ main {
     }
   }
 }
+
+@media only screen and (max-device-width: $iphone){
+  .specifications{
+    height: 90rem;
+    li{
+      margin: 2rem 0;
+    }
+  }
+}

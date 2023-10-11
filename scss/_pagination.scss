@@ -28,3 +28,9 @@
   font-weight: 700;
   background-color: $secondary-color;
 }
+
+@media only screen and (max-device-width: $iphone){
+  .pagination{
+    @include layout(flex-end);
+  }
+}

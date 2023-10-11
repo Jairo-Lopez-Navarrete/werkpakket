@@ -61,6 +61,7 @@ article .card-overlay, article .card-image {
 
 @media only screen and (max-device-width: 414px) {
   .main_header {
+    position: unset;
     height: 130rem;
   }
 }
@@ -527,6 +528,14 @@ main .main-layout li {
   margin-top: 1.5rem;
 }
 
+@media only screen and (max-device-width: 414px) {
+  .specifications {
+    height: 90rem;
+  }
+  .specifications li {
+    margin: 2rem 0;
+  }
+}
 .filter {
   width: 100%;
   z-index: 10;
@@ -568,6 +577,26 @@ main .main-layout li {
   font-size: 1rem;
 }
 
+@media only screen and (max-device-width: 414px) {
+  .overzichts_titel {
+    margin-top: 12rem;
+  }
+  section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15rem;
+    flex-direction: row-reverse;
+    border-radius: 1rem 0 0 1rem;
+    margin-top: 12rem;
+  }
+}
 .arrow-div {
   display: flex;
   justify-content: center;
@@ -619,6 +648,13 @@ main .main-layout li {
   background-color: rgba(148, 147, 150, 0.8);
 }
 
+@media only screen and (max-device-width: 414px) {
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
 .overzichts_titel {
   position: relative;
   top: 10rem;

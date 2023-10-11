@@ -40,3 +40,21 @@
     font-size: 1rem;
   }
 }
+
+
+@media only screen and (max-device-width: $iphone){
+  .overzichts_titel{
+    margin-top: 12rem;
+  }
+  section{
+    @include layout(flex-start);
+    flex-direction: row-reverse;
+  }
+  .filter{
+    @include layout(flex-start);
+    width: 15rem;
+    flex-direction: row-reverse;
+    border-radius: 1rem 0 0 1rem;
+    margin-top: 12rem;
+  }
+}

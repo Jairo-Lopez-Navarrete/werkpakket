@@ -49,6 +49,7 @@
 
 @media only screen and (max-device-width: $iphone){
   .main_header{
+    position: unset;
     height: 130rem;
   }
 }
