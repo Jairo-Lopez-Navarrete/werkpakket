@@ -23,7 +23,7 @@
   align-items: start;
   flex-direction: column;
   width: 100%;
-  padding: 13.5rem 6.7rem;
+  padding: 11rem 6.7rem 13rem 6.7rem;
   background-image: url("assets/img.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@
 }
 .main_header p {
   font-family: "noto sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: normal;
   width: 50rem;
 }
@@ -88,7 +88,7 @@
 }
 .navbar a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   font-family: "Bookman Old Style", serif;
   color: #fff;
@@ -316,7 +316,7 @@ footer i {
 
 }*/
 .reclame {
-  margin: 1rem;
+  margin: 3rem 2rem;
   border-radius: 1.5rem;
   background-image: url("assets/img_2.png");
   background-repeat: no-repeat;
@@ -338,10 +338,10 @@ footer i {
   right: 2rem;
   top: 5rem;
   flex-direction: column;
-  box-shadow: 0 10px 10px 0 rgba(12, 12, 12, 0.93);
 }
 .reclame h2 {
   color: #fff;
+  font-family: "Bookman Old Style", serif;
 }
 
 * {

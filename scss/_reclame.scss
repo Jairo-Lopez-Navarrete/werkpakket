@@ -1,7 +1,7 @@
 @import "_base.scss";
 
 .reclame{
-  margin: 1rem;
+  margin: 3rem 2rem;
   border-radius: 1.5rem;
   background-image: url("assets/img_2.png");
   background-repeat: no-repeat;
@@ -23,9 +23,9 @@
     right: 2rem;
     top: 5rem;
     flex-direction: column;
-    box-shadow: 0 10px 10px 0 $shadow-1;
   }
   h2{
     color: $white;
+    font-family: $primary-font
   }
 }
