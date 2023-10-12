@@ -8,6 +8,7 @@
 }
 
 .page-link {
+  @include paragraph();
   display: inline-block;
   padding: 10px 15px;
   background-color: $primary-color;
@@ -24,8 +25,8 @@
 }
 
 .page-link.active {
+  @include paragraph(bolder);
   color: $black;
-  font-weight: 700;
   background-color: $secondary-color;
 }
 

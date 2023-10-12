@@ -27,7 +27,7 @@
   }
 
   label{
-    font-size: 1.2rem;
+    @include paragraph();
   }
 
   input{

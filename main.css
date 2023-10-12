@@ -41,14 +41,13 @@ article .card-overlay, article .card-image {
   z-index: 40;
 }
 .main_header h2, .main_header p {
-  color: #fff;
-  font-family: "noto sans", sans-serif;
-  font-weight: bolder;
   margin: 1.5rem 0;
   z-index: 39;
+  color: #fff;
 }
 .main_header h2 {
   font-family: "Bookman Old Style", serif;
+  font-size: 2rem;
   font-weight: bolder;
   word-spacing: 0.3rem;
 }
@@ -83,15 +82,17 @@ article .card-overlay, article .card-image {
 }
 .navbar a {
   text-decoration: none;
-  font-size: 2.5rem;
-  font-weight: 500;
   font-family: "Bookman Old Style", serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
   color: #fff;
 }
 .navbar .main {
   font-family: "Bookman Old Style", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bolder;
+  word-spacing: 0.3rem;
   color: #fff;
   text-decoration: none;
 }
@@ -113,6 +114,7 @@ article .card-overlay, article .card-image {
   align-items: center;
   font-family: "noto sans", sans-serif;
   font-size: 1.5rem;
+  font-weight: normal;
   color: #fff;
   text-decoration: none;
 }
@@ -184,6 +186,8 @@ article .card-overlay-heading {
   text-align: center;
   font-family: "Bookman Old Style", serif;
   font-size: 2rem;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
   text-align: center;
 }
 article .card-overlay-paragraph {
@@ -192,7 +196,8 @@ article .card-overlay-paragraph {
   text-transform: capitalize;
   text-align: center;
   font-family: "noto sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: normal;
   margin-bottom: 1rem;
 }
 article .card-overlay-button {
@@ -254,21 +259,24 @@ footer .openingsuren {
 footer p {
   margin: 0.5rem;
   font-family: "noto sans", sans-serif;
-  color: rgba(148, 147, 150, 0.8);
   font-size: 1.5rem;
+  font-weight: normal;
+  color: rgba(148, 147, 150, 0.8);
 }
 footer li {
   margin: 0.5rem;
   list-style-type: none;
   font-family: "noto sans", sans-serif;
-  color: rgba(148, 147, 150, 0.8);
   font-size: 1.3rem;
+  font-weight: normal;
+  color: rgba(148, 147, 150, 0.8);
 }
 footer a {
   margin: 0.5rem;
   text-decoration: none;
   font-family: "noto sans", sans-serif;
   font-size: 1.3rem;
+  font-weight: normal;
   color: rgba(148, 147, 150, 0.8);
 }
 footer a:hover {
@@ -329,6 +337,9 @@ footer i {
 .reclame h2 {
   color: #fff;
   font-family: "Bookman Old Style", serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
 }
 
 @media only screen and (max-device-width: 414px) {
@@ -365,12 +376,14 @@ footer i {
 .background-info h1 {
   color: #fff;
   margin: 1rem;
+  font-family: "Bookman Old Style", serif;
   font-size: 2.5rem;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: normal;
   text-align: center;
-  font-family: "Bookman Old Style", serif;
 }
 .background-info form {
   display: flex;
@@ -419,6 +432,37 @@ footer i {
   opacity: 60%;
 }
 
+@media only screen and (max-device-width: 820px) {
+  .body_elements_login {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url("assets/img_6.png");
+    background-size: 100%;
+  }
+  .body_elements_login .background-info {
+    margin-top: 10rem;
+  }
+}
+@media only screen and (max-device-width: 414px) {
+  .body_elements_login {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url("assets/img_6.png");
+    background-size: 135%;
+  }
+  .body_elements_login .background-info {
+    margin: 10rem 0 0 12rem;
+    width: 55rem;
+    height: 60rem;
+  }
+  .body_elements_login .background-info input {
+    height: 4rem;
+  }
+}
 header {
   margin: 0 0 5rem 0;
   display: flex;
@@ -426,14 +470,17 @@ header {
   align-items: center;
 }
 header p {
-  margin-bottom: 2rem;
   font-family: "noto sans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
   width: 20rem;
+  margin-bottom: 2rem;
 }
 header .buybutton {
   margin-top: 2rem;
-  font-weight: 700;
+  font-family: "noto sans", sans-serif;
   font-size: 1.5rem;
+  font-weight: 700;
   padding: 1rem;
   border: 0;
   border-radius: 2rem;
@@ -454,7 +501,7 @@ header .text-number {
 }
 header .text-number .price {
   font-family: "noto sans", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 header .text-number form {
@@ -564,7 +611,9 @@ main .main-layout li {
   flex-direction: row;
 }
 .filter label {
-  font-size: 1.2rem;
+  font-family: "noto sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
 }
 .filter input {
   transform: scale(1.5);
@@ -628,6 +677,9 @@ main .main-layout li {
 }
 
 .page-link {
+  font-family: "noto sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
   display: inline-block;
   padding: 10px 15px;
   background-color: #181818;
@@ -643,8 +695,10 @@ main .main-layout li {
 }
 
 .page-link.active {
+  font-family: "noto sans", sans-serif;
+  font-size: bolder;
+  font-weight: normal;
   color: #000;
-  font-weight: 700;
   background-color: rgba(148, 147, 150, 0.8);
 }
 
@@ -659,10 +713,12 @@ main .main-layout li {
   position: relative;
   top: 10rem;
   font-family: "Bookman Old Style", serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
   color: #181818;
   letter-spacing: 0.3rem;
   padding: 2.5rem;
-  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

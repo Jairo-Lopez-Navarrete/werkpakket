@@ -28,21 +28,15 @@
   }
 
   h2, p{
-    color: $white;
-    font-family: $secondary-font;
-    font-weight: bolder;
     margin: 1.5rem 0;
     z-index: 39;
+    color: $white;
   }
   h2{
-    font-family: $primary-font;
-    font-weight: bolder;
-    word-spacing: 0.3rem;
+    @include title();
   }
   p{
-    font-family: $secondary-font;
-    font-size: 1.25rem;
-    font-weight: normal;
+    @include paragraph();
     width: 50rem;
   }
 }

@@ -37,15 +37,13 @@ article{
 
       &-heading {
         @include textStyles(capitalize);
-        font-family: $primary-font;
-        font-size: 2rem;
+        @include title();
         text-align: center;
       }
 
       &-paragraph {
         @include textStyles(capitalize);
-        font-family: $secondary-font;
-        font-size: 1rem;
+        @include paragraph();
         margin-bottom: 1rem;
       }
 

@@ -25,9 +25,8 @@
   h1 {
     color: $white;
     margin: 1rem;
-    font-size: 2.5rem;
+    @include title(2.5rem);
     @include textStyles(normal, 700);
-    font-family: $primary-font;
   }
 
   form {
@@ -77,6 +76,35 @@
     &:hover {
       color: $white;
       opacity: 60%;
+    }
+  }
+}
+
+@media only screen and (max-device-width: $ipad){
+  .body_elements_login{
+    @include layout(start, flex-start);
+    flex-direction: column;
+    background-image: url("assets/img_6.png");
+    background-size: 100%;
+    .background-info{
+      margin-top: 10rem;
+    }
+  }
+}
+
+@media only screen and (max-device-width: $iphone){
+  .body_elements_login{
+    @include layout(start, flex-start);
+    flex-direction: column;
+    background-image: url("assets/img_6.png");
+    background-size: 135%;
+    .background-info{
+      margin: 10rem 0 0 12rem;
+      width: 55rem;
+      height: 60rem;
+    }
+    .background-info input{
+      height: 4rem;
     }
   }
 }

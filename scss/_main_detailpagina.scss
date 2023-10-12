@@ -3,15 +3,14 @@
 header {
   margin: 0 0 5rem 0;
   p {
-    margin-bottom: 2rem;
-    font-family: $secondary-font;
+    @include paragraph(1rem);
     width: 20rem;
+    margin-bottom: 2rem;
   }
 
   .buybutton{
     margin-top: 2rem;
-    font-weight: 700;
-    font-size: 1.5rem;
+    @include paragraph(1.5rem, 700);
     padding: 1rem;
     border: 0;
     border-radius: 2rem;
@@ -30,9 +29,7 @@ header {
     flex-direction: column;
 
     .price {
-      font-family: $secondary-font;
-      font-size: 2.2rem;
-      font-weight: 700;
+      @include paragraph(2rem, 700);
     }
 
     form {

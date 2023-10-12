@@ -26,6 +26,19 @@ $iphone: 414px;
   align-items: $align;
 }
 
+@mixin paragraph($size: 1.25rem, $weight: normal){
+  font-family: $secondary-font;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin title($size_titel: 2rem){
+  font-family: $primary-font;
+  font-size: $size_titel;
+  font-weight: bolder;
+  word-spacing: 0.3rem;
+}
+
 @mixin position($title){
   position: relative;
   top: $title;
