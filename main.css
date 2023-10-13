@@ -233,8 +233,14 @@ article .card-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
+  }
+  article .gallery {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 footer {

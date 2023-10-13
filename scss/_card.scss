@@ -83,7 +83,11 @@ article{
 @media only screen and (max-device-width: $iphone){
   article{
     @include layout();
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
+    .gallery{
+      width: 50%;
+      @include layout();
+    }
   }
 }
